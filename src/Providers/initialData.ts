@@ -13,10 +13,10 @@ export const initialCustomCss = `/* You can put any css in here. For example:
 `
 
 export const initialGeneralSettings = {
-  img: "https://e4p7c9i3.stackpathcdn.com/wp-content/uploads/2019/05/tumblr_p320aq1osj1vjxiz1o1_1280.gif?iv=344",
-  title: "Yet another generic startpage",
+  img: "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fimages-wixmp-ed30a86b8c4ca887773594c2.wixmp.com%2Ff%2F3608b170-c7f8-4a0c-8ce9-918157ffa0d0%2Fd9ak7qd-14193d49-011b-4bfb-b56f-a97313897fb3.png%2Fv1%2Ffill%2Fw_1024%2Ch_625%2Cq_80%2Cstrp%2Fmakoto_shishio_by_adriano_arts_d9ak7qd-fullview.jpg%3Ftoken%3DeyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9NjI1IiwicGF0aCI6IlwvZlwvMzYwOGIxNzAtYzdmOC00YTBjLThjZTktOTE4MTU3ZmZhMGQwXC9kOWFrN3FkLTE0MTkzZDQ5LTAxMWItNGJmYi1iNTZmLWE5NzMxMzg5N2ZiMy5wbmciLCJ3aWR0aCI6Ijw9MTAyNCJ9XV0sImF1ZCI6WyJ1cm46c2VydmljZTppbWFnZS5vcGVyYXRpb25zIl19.7BFIX7MDdM38yaztIk60AB2fOoKtk6CWP7UNQKk2Hq0&f=1&nofb=1&ipt=714e046d37892754869e521a24f254332b2ff643fb530c6e555d5b5225035cb3&ipo=images",
+  title: "𝑡ℎ𝑖𝑠 𝑤𝑜𝑟𝑙𝑑 𝑖𝑠 ℎ𝑒𝑙𝑙 𝑖𝑡𝑠𝑒𝑙𝑓, 𝑑𝑜𝑛'𝑡 𝑦𝑜𝑢 𝑡ℎ𝑖𝑛𝑘?​",
   displayImg: true,
-  font: "Quicksand",
+  font: "Ubuntu",
   enableFonts: false,
   fontSize: 1,
 }
@@ -25,7 +25,7 @@ export const initialTheme = getTheme("nord")
 
 export const initialSearchSettings = {
   placeholder: "Search the web",
-  engine: "google" as SearchEngineName,
+  engine: "duckduckgo" as SearchEngineName,
   forwardingLookup: {
     "/": "/",
     deepl: "https://deepl.com/",
@@ -36,89 +36,89 @@ export const initialSearchSettings = {
 
 export const initialSurfaceSettings = {
   shadow: {
-    amount: 5,
-    blur: 0,
+    amount: 3,
+    blur: 6,
     offset: 12,
     shadow: "",
   } as ShadowOptions,
-  borderRadius: 0,
-  maxWidth: 1000,
+  borderRadius: 12,
+  maxWidth: 1200,
 }
 
 export const initialBookmarks: InitialBookmarkGroup[] = [
-  {
-    label: "reddit",
+   {
+    label: "socials",
     bookmarks: [
       {
-        label: "r/startpages",
-        url: "https://www.reddit.com/r/startpages/",
+        label: "cord",
+        url: "https://discord.com/channels/@me",
       },
       {
-        label: "r/typescript",
-        url: "https://www.reddit.com/r/typescript/",
+        label: "mail",
+        url: "https://mail.google.com/",
       },
       {
-        label: "r/reactjs",
-        url: "https://www.reddit.com/r/reactjs/",
+        label: "'sup",
+        url: "https://web.whatsapp.com/",
+      },
+      {
+        label: "$",
+        url: "https://drrr.com/",
       },
     ],
   },
   {
-    label: "design tools",
+    label: "media",
     bookmarks: [
       {
-        label: "pixlrx",
-        url: "https://pixlr.com/x/",
+        label: "bandcamp",
+        url: "https://bandcamp.com/lavuan/wishlist",
       },
       {
-        label: "image enlarger",
-        url: "https://bigjpg.com/en",
+        label: "spotify",
+        url: "https://open.spotify.com/",
       },
       {
-        label: "haikei",
-        url: "https://app.haikei.app/",
+        label: "twitch",
+        url: "https://www.twitch.tv/directory/following",
       },
       {
-        label: "css gradients",
-        url: "https://larsenwork.com/easing-gradients/",
+        label: "youtube",
+        url: "https://www.youtube.com/",
       },
     ],
   },
   {
-    label: "worth reading",
+    label: "forum",
     bookmarks: [
       {
-        label: "happy hues",
-        url: "https://www.happyhues.co/",
+        label: "danger",
+        url: "https://dangeru.us/",
       },
       {
-        label: "styled-components",
-        url: "https://www.joshwcomeau.com/react/demystifying-styled-components/",
+        label: "reddit",
+        url: "https://old.reddit.com/",
       },
       {
-        label: "react docs",
-        url: "https://reactjs.org/docs/getting-started.html",
+        label: "sgt",
+        url: "https://www.steamgifts.com/",
       },
     ],
   },
   {
-    label: "sources",
+    label: "etc.",
     bookmarks: [
       {
-        label: "icons",
-        url: "https://feathericons.com/",
+        label: "steam",
+        url: "https://steamcommunity.com/id/lav--/",
       },
       {
-        label: "gif",
-        url: "https://designyoutrust.com/2019/05/the-chill-and-retro-motion-pixel-art-of-motocross-saito/",
+        label: "duo",
+        url: "https://duolingo.com/learn",
       },
       {
-        label: "@startpage",
-        url: "https://prettycoffee.github.io/startpage",
-      },
-      {
-        label: "author",
-        url: "https://prettycoffee.github.io/",
+        label: "dex",
+        url: "https://mangadex.org/",
       },
     ],
   },
